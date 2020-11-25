@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="main.css">
+    <title>NGE Financial</title>
+</head>
+
+<body data-spy="scroll" data-target="#mynavbar" data-offset="110" style="font-family: Montserrat;">
+
+    <nav class="navbar navbar-expand-xl navbar-light fixed-top bg-light" id="navbar">
+        <div class="container" id="nav-container">
+
+            <a href="/">
+                <span class="navbar-brand"><img src="img/ngelogo.png"></span>
+            </a>
+
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav ml-auto nav-pills">
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link anchor" href="#problem">Problem/Solution</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link anchor" href="#market">Market</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link anchor" href="#product">Product</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link anchor" href="#model">Business Model</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link anchor" href="#advantage">Advantage</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/casestudies.html">Case Studies</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://options.ngefinancial.com">Options Portal</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://banks.ngefinancial.com">Banks Portal</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid" id="home" style="height: 400px;">
+        <h1 class="title">
+            Net Global Enterprises, LLC
+            <span class="subtitle d-block">Self-Directed Banking</span>
+        </h1>
+    </div>
+
+    <div class="container text-center">
+        <h1>Case Studies</h1>
+        <div class="card card-body case m-auto">
+            <p>Principle: $2,000 • 17 Days • Gain: $1,065</p>
+            <a data-toggle="collapse" href="#collapse1" role="button">
+                <img class="w-100" src="img/Gains-Overtime.jpg">
+                <div class="collapse" id="collapse1">
+                    <img class="w-100" src="img/NGE-Date-Entry-Selection.jpg">
+                </div>
+            </a>
+            <p>(Click to see more info.)</p>
+        </div>
+        <hr>
+        <div class="card card-body case m-auto">
+            <p>Principle: $4,000 • 21 Days • Gain: $280</p>
+            <a data-toggle="collapse" href="#collapse2" role="button">
+                <img class="w-100" src="img/case2a.png">
+                <div class="collapse" id="collapse2">
+                    <img class="w-100" src="img/case2b.png">
+                </div>
+            </a>
+            <p>(Click to see more info.)</p>
+        </div>
+        <hr>
+        <div class="card card-body case m-auto">
+            <p>Principle: $11,000 • 3 Days • Gain: $120</p>
+            <a data-toggle="collapse" href="#collapse3" role="button">
+                <img class="w-100" src="img/case3a.png">
+                <div class="collapse" id="collapse3">
+                    <img class="w-100" src="img/case3b.png">
+                </div>
+            </a>
+            <p>(Click to see more info.)</p>
+        </div>
+        <hr>
+        <div class="card card-body case m-auto">
+            <p>Principle: $33,000 • 9 Days • Gain: $494</p>
+            <a data-toggle="collapse" href="#collapse4" role="button">
+                <img class="w-100" src="img/case4a.png">
+                <div class="collapse" id="collapse4">
+                    <img class="w-100" src="img/case4b.png">
+                </div>
+            </a>
+            <p>(Click to see more info.)</p>
+        </div>
+        <hr>
+        <div class="card card-body case m-auto">
+            <p>Principle: $53,000 • 8 Days • Gain: $798</p>
+            <a data-toggle="collapse" href="#collapse5" role="button">
+                <img class="w-100" src="img/case5a.png">
+                <div class="collapse" id="collapse5">
+                    <img class="w-100" src="img/case5b.png">
+                </div>
+            </a>
+            <p>(Click to see more info.)</p>
+        </div>
+    </div>
+
+    <footer class="text-center my-2 mx-auto">
+        <span>© Net Global Enterprises LLC</span>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script>
+        var fadeIn = document.querySelectorAll('.to-fade-in');
+        for (var i = 0; i < fadeIn.length; i++)
+            fadeIn[i].style.opacity = '0';
+
+        function checkPosition() {
+            for (var i = 0; i < fadeIn.length; i++) {
+                var element = fadeIn[i];
+                if (element.getBoundingClientRect().top - window.innerHeight < -100) {
+                    element.classList.remove('to-fade-in');
+                    element.classList.add('fade-in');
+                }
+            }
+        }
+        window.addEventListener('scroll', checkPosition);
+        checkPosition();
+
+        var offset = 120;
+        $('.anchor').click(function (event) {
+            event.preventDefault();
+            scrollBy(0, $($(this).attr('href'))[0].getBoundingClientRect().top - offset);
+        });
+
+        $(document).ready(function () {
+            var url = window.location;
+            $('ul .nav-item a').filter(function () {
+                return this.href == url;
+            }).parent().addClass('active');
+        })
+    </script>
+</body>
+
+</html>
